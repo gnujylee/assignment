@@ -1,5 +1,6 @@
 /*로또추첨프로그램
 학번:2017010846 성명:이주영 */
+#include "pch.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -11,7 +12,7 @@ main() {
 	int number; //랜덤함수를 통해 로또번호를 임시로 저장할 변수
 	int n1; // 반복할 갯수 저장할 
 	printf("반복할 숫자를 입력하시오:");
-	scanf("%d", &n1);
+	scanf_s("%d", &n1);
 	for(j=0; j< n1; j++){
 
        /*로또번호 자동 랜덤추출 */
