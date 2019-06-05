@@ -1,6 +1,5 @@
 /*로또추첨프로그램
 학번:2017010846 성명:이주영 */
-#include "pch.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
